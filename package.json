@@ -1,0 +1,25 @@
+{
+  "name": "ajdf",
+  "version": "1.0.0",
+  "description": "The Automated James Defense System is an automated system is a discord server spam protection system.",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "discord.js": "^11.4.2",
+    "moment": "^2.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terminal-atomics/AJDF.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terminal-atomics/AJDF/issues"
+  },
+  "homepage": "https://github.com/terminal-atomics/AJDF#readme"
+}
