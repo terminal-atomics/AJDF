@@ -1,5 +1,6 @@
 const Logger = require('./logger');
 const Config = require('./config');
+const Guilds = require('./guilds');
 const MemberProfiler = require('./memberprofiler');
 
 module.exports.startup = async function(client) {
@@ -14,6 +15,7 @@ module.exports.startup = async function(client) {
         // Loop through every server the bot is on and if it isnt present in
         //guilds.json then set it up as defined below in guildCreate
         //a seperate method would be required to set up a guild in such a way
+        Guilds.init(client);
     });
 
     client.on('guildCreate', async (guild) => {
@@ -35,4 +37,12 @@ module.exports.startup = async function(client) {
 
         // Add user to quarantene and give reason in the trusted members channel
     });
+}
+
+async function flagUser(member) {
+
+}
+
+async function settupGuild(guild) {
+
 }

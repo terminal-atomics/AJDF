@@ -11,6 +11,7 @@ module.exports.main = async function() {
     Logger.init();
 
     await Config.load();
+    await Config.loadGuilds();
 
     module.exports.client = new Discord.Client();
 
