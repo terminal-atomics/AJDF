@@ -7,4 +7,6 @@ module.exports.init = async function(client) {
     });
 }
 
-
+module.exports.setupGuild = async function(guild) {
+    
+}
