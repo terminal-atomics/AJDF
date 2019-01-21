@@ -44,11 +44,10 @@ A distance of 196 is considered the full, max 4 points.
 ## Verification flow
 
 1. The user joins the server and is placed in an
-intro channel where you cannot type. It contains a
-link to the verification website.
-2. The user is told to login with Discord and is told
-that their data is never stored.
-3. The user clicks the button to login and is taken
+intro channel where they cannot type. It contains a
+link to the verification website with a note about
+privacy and what is about to happen.
+3. The user clicks the link to login and is taken
 to the Discord OAuth2 login page, where they can
 consent to the application or cancel the process.
 4. If they cancel, they will be taken to an error page.
@@ -65,7 +64,7 @@ either be able to go straight into the server or
 will be placed in some form of quarantine. It may
 also be possible to outright ban them.
 
-This flow should take max 20 seconds.
+This flow should take max 15 seconds.
 
 ## Outline of Privacy Policy
 
