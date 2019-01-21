@@ -39,7 +39,9 @@ equal to the highest color value in each channel and
 R<sub>1</sub>/G<sub>1</sub>/B<sub>1</sub> is equal to
 the lowest color value in each channel.
 
-A distance of 196 is considered the full, max 4 points.
+Note: Alpha isn't considered.
+
+A distance of 330 is considered the full, max 4 points.
 
 ## Verification flow
 

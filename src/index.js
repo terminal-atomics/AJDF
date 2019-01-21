@@ -4,6 +4,8 @@ const EventHandler = require('./eventhandler');
 
 const Discord = require('discord.js');
 
+const Scorer = require("./scorer");
+
 module.exports.client = {};
 
 module.exports.main = async function() {
@@ -14,7 +16,6 @@ module.exports.main = async function() {
     await Config.loadGuilds();
 
     module.exports.client = new Discord.Client();
-
     EventHandler.startup(module.exports.client);
     module.exports.client.login(Config.Configuration.token);
 }
